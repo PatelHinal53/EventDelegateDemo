@@ -23,25 +23,21 @@ namespace EventDelegateDemo
             abe.Add();
         }
 
-        private static void Abe_Addnumbers(object sender, EventArgs e)
+        private static void Sp_completedProcess()
         {
-            Console.WriteLine("\n Event is Executed");
+            Console.WriteLine("\n Welocme");
 
         }
-
         private static int Sed_Plus(int x, int y)
         {
 
             Console.WriteLine("\n x + y = " + (x + y));
             return x + y;
 
-
-
         }
-
-        private static void Sp_completedProcess()
+        private static void Abe_Addnumbers(object sender, EventArgs e)
         {
-            Console.WriteLine("\n Welocme");
+            Console.WriteLine("\n Event is Executed");
 
         }
     }
